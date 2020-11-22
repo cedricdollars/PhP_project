@@ -1,0 +1,84 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-size : 100%;
+	background-attachment: fixed;
+	padding-top: 60px;
+}
+
+.navbar {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	background-color: rgba(0,40,26,0.6);
+	margin-bottom: 0px;
+}
+
+.logo {
+	width: 160px;
+	margin-right: 40px;
+}
+
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background:  radial-gradient(transparent, black);
+}
+
+.header-back {
+	height: 350px;
+	background : linear-gradient(to top, rgba(0,50,36,0.8), transparent);
+	border-bottom: 8px solid rgba(0,50,36,0.8);
+	border-bottom: 8px solid rgba(0,200,180,0.6);
+}
+
+.title-container {
+	padding: 20px;
+}
+
+.panel-heading {
+	padding: 20px;
+}
+
+.panel-body {
+	padding-bottom: 0px;
+}
+
+.title {
+	color: white;
+}
+
+.form-group {
+	margin-top: 10px;
+}
+
+.inner-form {
+	padding: 10px 20px
+}
+
+.btn-full {
+	width: 100%;
+}
+
+.material-icons {
+	width: 24px;
+}
+
+.btn-new-item{
+    position: absolute !important;
+    right: 42px;
+    top: 28px;
+}
+
+label {
+	margin-bottom: -5px !important;
+}
+
+.form-control {
+	font-weight: bold !important;
+}
